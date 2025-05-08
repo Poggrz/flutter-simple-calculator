@@ -29,3 +29,10 @@ subprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+defaultConfig {
+    applicationId "your.package.name"
+    minSdkVersion 21
+    targetSdkVersion 33
+    ...
+}
